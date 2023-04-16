@@ -5,8 +5,9 @@ package innerclass;
  */
 public class LocalInnerClass {
     public static void main(String[] args) {
-        Outer02 outer = new Outer02();
-        outer.m1();
+//        Outer02 outer = new Outer02();
+//        outer.m1();
+//        float [][]f=new float[][6]; 这是错误的写法，用new的时候声明的时候需要前面的维度有数字
     }
 }
 
