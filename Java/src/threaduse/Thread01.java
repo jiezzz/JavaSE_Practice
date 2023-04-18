@@ -8,9 +8,10 @@ public class Thread01 {
         cat.start();
 
 
+
         }
     }
-}
+
 // 写一个线程需要继承Thread类或实现Runnable接口,重写run方法
 
 class Cat extends Thread{
